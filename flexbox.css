@@ -1,0 +1,96 @@
+*{
+	font-weight: 100;
+	font-family: 'Xanh Mono', monospace;
+}
+body{
+	background: #000;
+}
+.flex-container{
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: center;
+	background: #222;
+	margin: 50px 50px;
+	padding: 20px;
+	border: 14px solid #000;
+	outline: 3px solid #094;
+}
+
+.form{
+	min-width: 400px;
+	flex: 1;
+	text-align: center;
+	padding: 30px;
+	order: 5;
+}
+.form__section{
+
+}
+.form__input{
+	color: #fff;
+	width: 100%;
+	padding: 7px;
+	margin: 6px 0;
+	border: none;
+	border-bottom: 3px solid #1c7;
+	background: transparent;
+
+}
+.form__input:focus{
+	background:linear-gradient(to bottom,transparent,#111);
+	outline: none;
+	border-bottom: 3px solid #5f9;
+}
+.form textarea{
+	min-height: 140px;
+	resize:none;
+
+}
+.form-img{
+	flex: 1;
+	padding: 10px;
+	display: flex;
+	min-width: 300px;
+	max-width: 400px;
+	order: 2;
+}
+.form-img div{
+	padding: 10px;
+	
+}
+.img-container{
+	margin: auto;
+	
+	
+}
+.img-container div{
+	
+	border-radius: 50%;
+	background-color: #222;
+	text-align: center;
+	padding: 40px;
+}
+
+.form-img img{
+	width:80%;
+	margin: auto;
+	
+	
+}
+.form input[type="submit"]{
+	background: #000;
+	border-bottom: none;
+	padding: 12px;
+}
+.form input[type="submit"]:hover{
+	background: #000;
+	border-bottom: none;
+	padding: 12px;
+}
+.form input[type="submit"]:focus{
+	background: #222;
+}
+.form input[type="submit"]:active{
+	background: linear-gradient(to botton,#000,#222);
+}
